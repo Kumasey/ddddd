@@ -75,10 +75,10 @@ nav > a{
     display: flexbox;
     /* flex-wrap: wrap-reverse; */
     justify-content: space-around;
-    width: 200px;
-    /* border: solid 1px red; */
+    /* width: 600px; */
+    border: solid 1px red;
     margin-top: 100px;
-    height: 230px;
+    height: 280px;
     padding: 0;
 }
 
@@ -95,65 +95,98 @@ nav > a{
 .cont2{
     /* display: flex; */
     border: solid 1px rgb(180, 177, 177);
-    width: 300px;
-    height: 150px;
+    width: 25%;
+    height: 180px;
     margin-left: 15px;
     border-top: 0;
     border-right: 0;
+    padding: 10px;
 }
 
 .cont4{
+    align-content: center;
     border: solid 1px rgb(180, 177, 177);
-    width: 300px;
-    height: 150px;
-    padding: 10px;
+    width: 25%;
+    height: 180px;
+    padding: 55px;
     border-top: 0;
 }
 
-.cont4 > button{
-    padding: 0;
-    position: absolute;
-    background-color: #FF8200;
-    border: solid 1px white;
-    border-radius: 5px;
-    color: white;
-    width: 150px;
+.buttt{
+    /* border: solid 1px black; */
+    width: 190px;
     height: 40px;
+}
+
+.buttt >a >img{
+    width: 100%;
 }
 
 .cont3{
     /* display: flex; */
     border: solid 1px rgb(180, 177, 177);
-    width: 510px;
-    height: 150px;
+    width: 47.4%;
+    height: 180px;
     border-top: 0;
     border-right: 0;
+    padding: 10px;
     /* margin-left: 10px; */
 }
 
 .first{
-    /* border: dashed 1px rgb(133, 133, 133); */
-    width: 350px;
-    height: 400px;
+    border: dashed 1px black;
+    width: 485px;
+    height: 489px;
     margin-top: 40px;
-    background-image: url(../img/shirt.png);
     background-size: cover;
 }
 
 .fifth{
-    width: 224px;
-    height: 95px;
+    /* border: solid 1px; */
+    width: 75%;
+    height: 30%;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.fifth > button{
-    background-color: white;
-    color: black;
-    margin: 5px;
+.fifth1{
+    /* border: solid 1px red; */
+    width: 42%;
+    height: 45px;
+    border-radius: 5px;
 }
 
+.fifth1 >a >img{
+    width: 100%;
+}
+
+.fifth2{
+    /* border: solid 1px red; */
+    width: 42%;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.fifth2 >a >img{
+    width: 100%;
+}
+
+.fifth3{
+    padding-left: 10px;
+    padding-top: 19px;
+}
+
+.fifth13{
+    /* border: solid 1px red; */
+    width: 95%;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.fifth13 >a >img{
+    width: 100%;
+}
 
 .fourth{
     border: dashed 1px rgb(133, 133, 133);
@@ -162,24 +195,33 @@ nav > a{
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
 
 .second{
     /* border: dashed 1px rgb(133, 133, 133); */
     width: 350px;
-    height: 400px;
+    height: 430px;
     margin-top: 40px;
     padding-left: 10px;
 }
-.second > button{
+
+.detail{
+    border: dashed 1px black;
+    height: 70%;
+    padding: 20px;
+}
+
+.butt{
     margin-left: 50px;
-    /* position: absolute; */
-    background-color: #FF8200;
     border: solid 1px white;
     border-radius: 5px;
-    color: white;
-    width: 150px;
+    width: 190px;
     height: 40px;
+}
+
+.butt > a > img{
+    width: 100%;
 }
 
 .third{
@@ -187,6 +229,7 @@ nav > a{
     width: 350px;
     height: 400px;
     margin-top: 40px;
+    padding-left: 20px;
 }
 
 .se{
@@ -288,7 +331,7 @@ nav > a{
 
 ul{
         margin-right: 2%; 
-    }
+}
 
 #li{
         display: inline;
@@ -302,17 +345,7 @@ ul{
         letter-spacing: 0em;
         text-align: center;
         color: #FFFFFF;
-    }
-
-
-
-
-
-
-   
-
-
-    
+}
 
 
 /* container */
@@ -630,31 +663,26 @@ color: hsla(0, 0%, 100%, 0.986);
 }
 
 #recent1{
-    background-image: url(../img/OIP.jpg);
     height: 250px;
     width: 15%;
     box-shadow: 0 4px 8px 0 rgba(170, 169, 169, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
 }
 #recent2{
-    background-image: url(../img/OIP.jpg);
     height: 250px;
     width: 15%;
     box-shadow: 0 4px 8px 0 rgba(170, 169, 169, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
 }
 #recent3{
-    background-image: url(../img/OIP.jpg);
     height: 250px;
     width: 15%;
     box-shadow: 0 4px 8px 0 rgba(170, 169, 169, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
 }
 #recent4{
-    background-image: url(../img/OIP.jpg);
     height: 250px;
     width: 15%;
     box-shadow: 0 4px 8px 0 rgba(170, 169, 169, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
 }
 #recent5{
-    background-image: url(../img/OIP.jpg);
     height: 250px;
     width: 15%;
     background-color: white;
